@@ -1,0 +1,149 @@
+{
+    "name":"Panorama",
+    "thumbnail":"panorama.png",
+    "screenshot":"panorama.png",
+    "templateType":"standard",
+    "pageTypes": ["home"],
+    "images":[
+        "images/image-1.jpg"
+    ],
+    "tags": {
+    "en": ["clean", "minimal"]
+    },
+    "colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#f1f1f1",
+            "color2":"#ffffff",
+            "color3":"#4d5761",
+            "color4":"#4d5761",
+            "color5":"#919190",
+            "color6":"#a7a4a4",
+            "color7":"#77787b"
+        },
+        "Swatch 2": {
+            "color1":"#ffffff",
+            "color2":"#0c0c0c",
+            "color3":"#4682b4",
+            "color4":"#0c0c0c",
+            "color5":"#646464",
+            "color6":"#282828",
+            "color7":"#f0f0f0"
+        },
+        "Swatch 3": {
+            "color1":"#ffffff",
+            "color2":"#0c0c0c",
+            "color3":"#f4a460",
+            "color4":"#0c0c0c",
+            "color5":"#646464",
+            "color6":"#282828",
+            "color7":"#f0f0f0"
+        },
+        "Swatch 4": {
+            "color1":"#ffffff",
+            "color2":"#0c0c0c",
+            "color3":"#5f9ea0",
+            "color4":"#0c0c0c",
+            "color5":"#646464",
+            "color6":"#282828",
+            "color7":"#f0f0f0"
+        },
+        "Swatch 5": {
+            "color1":"#ffffff",
+            "color2":"#0c0c0c",
+            "color3":"#bc8f8f",
+            "color4":"#0c0c0c",
+            "color5":"#646464",
+            "color6":"#282828",
+            "color7":"#f0f0f0"
+        }
+    },
+    "fontSwatch": {
+       "title": "Merriweather",
+        "font1": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "34px",
+            "font-weight": "400",
+            "line-height": "49px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "30px",
+            "font-weight": "400",
+            "line-height": "42px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "24px",
+            "font-weight": "400",
+            "line-height": "34px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch6",
+            "color-hover": "@color-swatch3",
+            "letter-spacing": "inherit",
+            "background-color": "transparent",
+            "background-color-hover": "transparent"
+        },
+        "font7": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "15px",
+            "font-weight": "400",
+            "line-height": "25px",
+            "color": "@color-swatch1",
+            "letter-spacing": "0",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "lighten(@color-swatch3,10%)"
+        },
+        "font8": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "35px",
+            "font-weight": "400",
+            "line-height": "47px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "28px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-size": "26px",
+            "font-weight": "700",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        }
+    }
+}

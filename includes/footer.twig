@@ -1,0 +1,31 @@
+<footer class="bk-footer">
+	<div class="details-background">
+		<div class="wrapper clearfix">
+			<div class="details-left">
+				{{widget('profile', 'address', { 'profileType':'address'})|raw}}
+			</div>
+			<div class="details-right">
+				{{widget('profile', 'phone', { 'profileType':'phone'})|raw}}
+			</div>
+		</div><!--end user-details-->
+	</div><!--end details-background -->
+	<div class="nav-brand wrapper">
+		<div class="nav">
+			{{widget('extendednavigation', 'navigationheader', {"align":"left"})|raw}}
+		</div>
+		<div class="brand">
+			{{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png'),"showTplWidget":"0"})|raw}}
+			{{widget('companyname', 'companyname', {"business": "panorama"})|raw}}
+		</div>
+	</div><!--end nav-brand -->
+	<div class="footer-profile">
+		<div class="wrapper clearfix">
+			<div class="footer-left">
+				{{widget('profile', 'footercolumn1socialicons', { 'profileType' : 'socialicons' })|raw}}
+			</div>
+			<div class="footer-right">
+				{{widget('profile', 'copyright', { 'profileType':'copyright'})|raw}}
+			</div>
+		</div><!--end user-details-->
+	</div><!--end footer-profile -->
+</footer>

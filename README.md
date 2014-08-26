@@ -1,2 +1,5 @@
-panorama
+
+Panorama
 ========
+
+Basekit Standard Template
