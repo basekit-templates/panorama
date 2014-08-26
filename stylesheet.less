@@ -168,9 +168,9 @@ header.bk-header {
 	}
 	.widget.profile form button.btn {
 		background-color: lighten(@color-swatch3,7%);
-		  	-webkit-box-shadow: 0px 3px 0px darken(@font-swatch7-background-color,8%);
-		    -moz-box-shadow:    0px 3px 0px darken(@font-swatch7-background-color,8%); 
-		    box-shadow:         0px 3px 0px darken(@font-swatch7-background-color,8%); 
+	  	-webkit-box-shadow: 0px 3px 0px darken(@font-swatch7-background-color,8%);
+	    -moz-box-shadow:    0px 3px 0px darken(@font-swatch7-background-color,8%); 
+	    box-shadow:         0px 3px 0px darken(@font-swatch7-background-color,8%); 
 	}
 }
 
@@ -207,6 +207,9 @@ footer.bk-footer {
 			    &:last-child:after {
 			        content: '';
 			    }
+			}
+			.widget.profile form fieldset input {
+				background-color: @color-swatch2;
 			}
 		}
 	}
@@ -332,6 +335,9 @@ footer .widget.profile .bk-profile-socialicons span a {
 		  			ul li:hover span.text {
 		  				color: @font-swatch6-color-hover;
 		  			}
+		  			&:after {
+						border-top-color: @font-swatch6-color-hover;
+					}
 	  			}
 			}
 		}
@@ -615,6 +621,9 @@ textarea {
 	input {
 		text-indent: 40px;
 		margin-bottom: 10px;
+		@media @mobile {
+    		text-indent: 10px;
+    	}
 	}
 	input:-webkit-autofill {
         text-indent: 0;
@@ -624,24 +633,40 @@ textarea {
         background-repeat: no-repeat;
         background-position: 8px 5px;
         text-indent: 2000px;
+        @media @mobile {
+    		background-image: none;
+    		text-indent: 10px;
+    	}
     }
     :-moz-placeholder { /* Firefox 18- */
         background-image: image('/images/envelope2.png');
         background-repeat: no-repeat;
         background-position: 8px 5px;
         text-indent: 2000px;
+        @media @mobile {
+    		background-image: none;
+    		text-indent: 10px;
+    	}
     }
     ::-moz-placeholder {  /* Firefox 19+ */
         background-image: image('/images/envelope2.png');
         background-repeat: no-repeat;
         background-position: 8px 5px;
         text-indent: 2000px;
+        @media @mobile {
+    		background-image: none;
+    		text-indent: 10px;
+    	}
     }
     :-ms-input-placeholder {  
         background-image: image('/images/envelope2.png');
         background-repeat: no-repeat;
         background-position: 8px 5px;
         text-indent: 2000px;
+        @media @mobile {
+    		background-image: none;
+    		text-indent: 10px;
+    	}
     }
 }
 
@@ -651,6 +676,10 @@ textarea {
     background-repeat: no-repeat;
     background-position: 13px 5px;
     text-indent: 40px;
+	@media @mobile {
+		background-image: none;
+		text-indent: 10px;
+	}
 }
 
 .widget.contactform .submitting {
@@ -1318,7 +1347,7 @@ footer.blog-post-metadata time {
         .ecom-product-variation {
             padding: 2em;
             border: 1px solid darken(@color-swatch1,8%);
-            background-color: darken(@color-swatch1,2%);
+            background-color: lighten(@color-swatch1,5%);
         }
     }
 }
@@ -1458,6 +1487,9 @@ span.ecom-product-category {
                             color: @color-swatch4;
                             border: 1px solid darken(@color-swatch1,7%);
                             .border-radius(3px);
+                            -webkit-box-shadow: 0px 3px 0px darken(@color-swatch1,15%);
+						    -moz-box-shadow:    0px 3px 0px darken(@color-swatch1,15%); 
+						    box-shadow:         0px 3px 0px darken(@color-swatch1,15%); 
                             &:hover {
                                 background-color: darken(@color-swatch1,10%);
                             }
