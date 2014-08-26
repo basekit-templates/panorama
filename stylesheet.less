@@ -114,15 +114,21 @@
 
 .nav {
 	float: left;
-	max-width: 70%;
+	max-width: 66%;
+	margin-right: 4%;
 	@media @tablet {
 		margin: 0;
 		max-width: 100%;
+		margin-right: 0;
 	}
 }
 
 .brand {
 	float: right;
+	max-width: 30%;
+	@media @tablet {
+		max-width: 100%;
+	}
 }
 
 .footer-profile {
@@ -181,6 +187,7 @@
 	=================== */
 
 .widget.extendednavigation {
+	float: left;
 	@media @tablet {
 		background: @color-swatch7;
 		min-height: 58px;
