@@ -140,8 +140,11 @@ header.bk-header {
 		height: 18px;
 		span a {
 			height: 18px; 
-			background: transparent;
+			background-color: transparent;
 			margin-bottom: 0;
+			&:hover {
+				background-color: transparent;
+			}
 		}
 	}
 	@media @tablet {
@@ -359,6 +362,10 @@ footer .widget.profile .bk-profile-socialicons span a {
 		left: 50%;
 		margin-left: -14px;
 	}
+}
+
+.widget.extendednavigation .bk-overlay {
+	width: 100% !important;
 }
 
 // Selected state
