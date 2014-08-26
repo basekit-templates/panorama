@@ -134,7 +134,21 @@
 .footer-profile {
 	clear: both;
 	border-top: 1px solid @color-swatch7;
+	.footer-left, .footer-right {
+		.bk-profile-address p {
+			display: inline-block;
+			padding-bottom: 0;
+		    &:after {
+		        content: "\002C";
+		    }
+		    &:last-child:after {
+		        content: '';
+		    }
+		}
+	}
 }
+
+
 
 /* ---- SOCIAL ICONS ----- */
 
