@@ -672,7 +672,11 @@ textarea {
 	input {
 		text-indent: 40px;
 		margin-bottom: 10px;
-		@media @mobile {
+		background-image: image('/images/envelope2.png');
+        background-repeat: no-repeat;
+        background-position: 12px center;
+        @media @mobile {
+    		background-image: none;
     		text-indent: 10px;
     	}
 	}
@@ -1294,7 +1298,6 @@ footer.blog-post-metadata time {
     .ecom-productslist-image-wrap, .ecom-featuredproducts-image-wrap {
         margin-bottom: 1em;
         background-color: @color-swatch2 !important;
-        background-position: left center !important;
         @media @mobile {
             background-image: none !important;
             height: auto !important;
@@ -1312,21 +1315,21 @@ footer.blog-post-metadata time {
             padding-top: 0;
         }
         .ecom-productslist-title, .ecom-featuredproducts-title {
-            font-family: @font-swatch3-font-family;
-            font-size: @font-swatch3-font-size;
-            font-weight: @font-swatch3-font-weight;
-            line-height: @font-swatch3-line-height;
-            color: @font-swatch3-color;
+            font-family: @font-swatch4-font-family;
+            font-size: @font-swatch4-font-size;
+            font-weight: @font-swatch4-font-weight;
+            line-height: @font-swatch4-line-height;
+            color: @font-swatch4-color;
             padding: 0;
         }
     }
     a:hover {
-        text-decoration: none;
-        .ecom-productlist-info, .ecom-featuredproducts-info {
-            .ecom-productslist-title, .ecom-featuredproducts-title {
-                color: @color-swatch3;
-            }
-        }
+    	text-decoration: none;
+	    .ecom-productlist-info, .ecom-featuredproducts-info {
+	        .ecom-productslist-title, .ecom-featuredproducts-title {
+	        	text-decoration: underline;
+	        }
+	    }
     }
 }
 .productlist-pagination {
