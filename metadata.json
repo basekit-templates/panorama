@@ -3,9 +3,8 @@
     "thumbnail":"panorama.png",
     "screenshot":"panorama.png",
     "templateType":"standard",
-    "pageTypes": ["home"],
     "images":[
-        "images/image-1.jpg"
+        "images/feature-bg.jpg"
     ],
     "tags": {
     "en": ["clean", "minimal"]
