@@ -33,11 +33,11 @@
         "Swatch 3": {
             "color1":"#f1f1f1",
             "color2":"#ffffff",
-            "color3":"#eea35d",
-            "color4":"#636260",
+            "color3":"#748182",
+            "color4":"#505656",
             "color5":"#9d9c9b",
             "color6":"#9d9c9b",
-            "color7":"#636260"
+            "color7":"#989ea3"
         },
         "Swatch 4": {
             "color1":"#f1f1f1",
@@ -51,11 +51,11 @@
         "Swatch 5": {
             "color1":"#f1f1f1",
             "color2":"#ffffff",
-            "color3":"#5c5b5f",
-            "color4":"#5c5b5f",
+            "color3":"#519d9b",
+            "color4":"#52605f",
             "color5":"#919190",
             "color6":"#a7a4a4",
-            "color7":"#a1968e"
+            "color7":"#b6b8b8"
         }
     },
     "fontSwatch": {
