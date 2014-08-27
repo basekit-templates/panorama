@@ -42,20 +42,20 @@
         "Swatch 4": {
             "color1":"#f1f1f1",
             "color2":"#ffffff",
-            "color3":"#74c5a8",
-            "color4":"#58635f",
-            "color5":"#9f9f9f",
-            "color6":"#9f9f9f",
-            "color7":"#b4b4b4"
+            "color3":"#5c5b5f",
+            "color4":"#5c5b5f",
+            "color5":"#919190",
+            "color6":"#a7a4a4",
+            "color7":"#a1968e"
         },
         "Swatch 5": {
             "color1":"#f1f1f1",
             "color2":"#ffffff",
-            "color3":"#4d5761",
-            "color4":"#4d5761",
+            "color3":"#5c5b5f",
+            "color4":"#5c5b5f",
             "color5":"#919190",
             "color6":"#a7a4a4",
-            "color7":"#77787b"
+            "color7":"#a1968e"
         }
     },
     "fontSwatch": {
