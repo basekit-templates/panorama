@@ -540,6 +540,9 @@ a.basket-summary-empty-cta.btn,
     margin: 5px 0;
     padding: 8px 15px 5px;
     text-decoration: none;
+    border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
     @media @mobile {
         padding: 10px 15px;
         margin: 10px 0;
@@ -641,6 +644,9 @@ input, textarea, select, .widget.profile form fieldset input, .signupform fields
 	background-color: @color-swatch1;
 	border: 1px solid darken(@color-swatch1,3%);
 	height: 43px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
 	@media @tablet {
 		margin-bottom: 10px;
 	}
@@ -652,6 +658,12 @@ input, textarea, select, .widget.profile form fieldset input, .signupform fields
         box-shadow: 0 0 6px lighten(@color-swatch3,50%);
         border: 1px solid lighten(@color-swatch3,50%);
     }
+}
+
+input[type='text'], input[type=email] {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
 }
 
 select {
