@@ -713,16 +713,13 @@ input, input[type='text'], input[type=email] {
 	input {
 		text-indent: 40px;
 		margin-bottom: 10px;
-		background-image: image('/images/envelope.png');
-        background-repeat: no-repeat;
-        background-position: 12px center;
         @media @mobile {
     		background-image: none;
     		text-indent: 10px;
     	}
 	}
 	input:-webkit-autofill {
-        text-indent: 0;
+        text-indent: 10px;
     }
     ::-webkit-input-placeholder {
         background-image: image('/images/envelope.png');
