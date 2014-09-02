@@ -640,7 +640,7 @@ label {
 	display: block;
 }
 
-input, textarea, select, .widget.profile form fieldset input, .signupform fieldset input {
+input, input[type='text'], input[type=email], textarea, select, .widget.profile form fieldset input, .signupform fieldset input, .blogsearch form input, .widget.profile form fieldset input[type=email], .signupform fieldset input[type=email], .blogsearch form input[type='text'] {
 	background-color: @color-swatch1;
 	border: 1px solid darken(@color-swatch1,3%);
 	height: 43px;
@@ -658,12 +658,6 @@ input, textarea, select, .widget.profile form fieldset input, .signupform fields
         box-shadow: 0 0 6px lighten(@color-swatch3,50%);
         border: 1px solid lighten(@color-swatch3,50%);
     }
-}
-
-input[type='text'], input[type=email] {
-	border-radius: 0;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
 }
 
 select {
