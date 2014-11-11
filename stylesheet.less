@@ -714,57 +714,25 @@ input, input[type='text'], input[type=email] {
 
 /* CONTACT FORM */
 
-.widget.contactform fieldset {
-	input {
-		text-indent: 40px;
-		margin-bottom: 10px;
-        @media @mobile {
-    		background-image: none;
-    		text-indent: 10px;
-    	}
-	}
-	input:-webkit-autofill {
-        text-indent: 10px;
-    }
-    ::-webkit-input-placeholder {
-        background-image: image('/images/envelope.png');
-        background-repeat: no-repeat;
-        background-position: 8px 5px;
-        text-indent: 2000px;
-        @media @mobile {
-    		background-image: none;
-    		text-indent: 10px;
-    	}
-    }
-    :-moz-placeholder { /* Firefox 18- */
-        background-image: image('/images/envelope.png');
-        background-repeat: no-repeat;
-        background-position: 8px 5px;
-        text-indent: 2000px;
-        @media @mobile {
-    		background-image: none;
-    		text-indent: 10px;
-    	}
-    }
-    ::-moz-placeholder {  /* Firefox 19+ */
-        background-image: image('/images/envelope.png');
-        background-repeat: no-repeat;
-        background-position: 8px 5px;
-        text-indent: 2000px;
-        @media @mobile {
-    		background-image: none;
-    		text-indent: 10px;
-    	}
-    }
-    :-ms-input-placeholder {  
-        background-image: image('/images/envelope.png');
-        background-repeat: no-repeat;
-        background-position: 8px 5px;
-        text-indent: 2000px;
-        @media @mobile {
-    		background-image: none;
-    		text-indent: 10px;
-    	}
+.widget.contactform {
+    fieldset {
+        input {
+            text-indent: 40px;
+            margin-bottom: 10px;
+            background-image: image('/images/envelope.png');
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position: 10px center;
+            @media @mobile {
+                background-image: none !important;
+                text-indent: 5px;
+            }
+        }
+        .form-group button.btn {
+            @media @mobile {
+                width: 100%;
+            }
+        }
     }
 }
 
