@@ -1,11 +1,11 @@
 /* ===================
-	Imports & Includes 
+	Imports & Includes
 	==================*/
 
 @import "@{templateCommon}/basekit-bootstrap.less";
 
 /* =======
-	Mixins 
+	Mixins
 	====== */
 
 .border-radius (@radius: 3px) {
@@ -15,15 +15,15 @@
 }
 
 .transition (@prop: all, @time: 0.5s, @ease: ease) {
-	-webkit-transition: @prop @time @ease;  
+	-webkit-transition: @prop @time @ease;
 	-moz-transition:    @prop @time @ease;
-	-ms-transition:     @prop @time @ease; 
-	-o-transition:      @prop @time @ease;  
+	-ms-transition:     @prop @time @ease;
+	-o-transition:      @prop @time @ease;
 	transition: 		@prop @time @ease;
 }
 
 /* =====
-	Main 
+	Main
 	==== */
 
 .main {
@@ -49,7 +49,7 @@
 }
 
 /* =======
-	Header 
+	Header
 	====== */
 
 header.bk-header {
@@ -116,7 +116,7 @@ header.bk-header {
 }
 
 /* ================
-	Profile Widgets 
+	Profile Widgets
 	=============== */
 
 .details-background {
@@ -153,7 +153,7 @@ header.bk-header {
 		width: 100%;
 		text-align: center;
 	}
-} 
+}
 
 .details-left, .footer-left {
 	float: left;
@@ -178,8 +178,8 @@ header.bk-header {
 	.widget.profile form button.btn {
 		background-color: lighten(@color-swatch3,7%);
 	  	-webkit-box-shadow: 0px 3px 0px darken(@font-swatch7-background-color,15%);
-	    -moz-box-shadow:    0px 3px 0px darken(@font-swatch7-background-color,15%); 
-	    box-shadow:         0px 3px 0px darken(@font-swatch7-background-color,15%); 
+	    -moz-box-shadow:    0px 3px 0px darken(@font-swatch7-background-color,15%);
+	    box-shadow:         0px 3px 0px darken(@font-swatch7-background-color,15%);
 	}
 }
 
@@ -187,7 +187,7 @@ header.bk-header {
 	padding-top: 5px;
 	height: 18px;
 	span a {
-		height: 18px; 
+		height: 18px;
 		background-color: transparent;
 		margin-bottom: 0;
 		&:hover {
@@ -329,7 +329,7 @@ footer .footer-profile {
 
 
 /* ====================
-	Extended Navigation 
+	Extended Navigation
 	=================== */
 
 .widget.extendednavigation {
@@ -410,7 +410,7 @@ footer .footer-profile {
 				}
 				.text {
 					display: inline-block;
-					padding-right: 6px;					
+					padding-right: 6px;
 				}
 				&:hover {
 	  				span.text {
@@ -434,7 +434,7 @@ footer .footer-profile {
 .widget .extendednavigation a.pull {
 	padding: 0;
 	position: absolute;
-	top: 0; 
+	top: 0;
 	width: 100%;
 	height: 56px;
 	left: 0;
@@ -443,7 +443,7 @@ footer .footer-profile {
 	outline: none;
 	background: @color-swatch7;
 	.transition( all, 0.5s, ease );
-    &:hover { 
+    &:hover {
     	.transition( all, 0.5s, ease);
     	&:after {
     		background: darken(#c7c7c7, 10%);
@@ -480,7 +480,7 @@ footer .footer-profile {
 }
 
 /* ========
-	Feature 
+	Feature
 	======= */
 
 .feature-content {
@@ -524,13 +524,13 @@ footer .footer-profile {
 
 .feature-btn button.btn,
 .widget.button button,
-button.btn, 
+button.btn,
 .btn,
-.widget.profile form button, 
-.signupform fieldset button, 
-.contactform button.btn, 
-.blogsearch form button, 
-.checkout-order-button, 
+.widget.profile form button,
+.signupform fieldset button,
+.contactform button.btn,
+.blogsearch form button,
+.checkout-order-button,
 .checkout-empty-link,
 .widget.tweet a,
 .widget.paypalbuynow .widget.button.paypal,
@@ -549,8 +549,8 @@ a.basket-summary-empty-cta.btn,
     line-height: @font-swatch7-line-height;
     background-color: @font-swatch7-background-color;
   	-webkit-box-shadow: 0px 3px 0px darken(@font-swatch7-background-color,15%);
-    -moz-box-shadow:    0px 3px 0px darken(@font-swatch7-background-color,15%); 
-    box-shadow:         0px 3px 0px darken(@font-swatch7-background-color,15%); 
+    -moz-box-shadow:    0px 3px 0px darken(@font-swatch7-background-color,15%);
+    box-shadow:         0px 3px 0px darken(@font-swatch7-background-color,15%);
     border: none;
     margin: 5px 0;
     padding: 8px 15px 5px;
@@ -566,7 +566,7 @@ a.basket-summary-empty-cta.btn,
         background-color: @font-swatch7-background-color-hover;
         .transition( all, 0.5s, ease );
     }
-} 
+}
 
 .widget.clicktocall {
 	@media @mobile {
@@ -578,8 +578,8 @@ a.basket-summary-empty-cta.btn,
 		    line-height: @font-swatch7-line-height;
 		    background-color: @font-swatch7-background-color;
 		  	-webkit-box-shadow: 0px 3px 0px darken(@font-swatch7-background-color,15%);
-		    -moz-box-shadow:    0px 3px 0px darken(@font-swatch7-background-color,15%); 
-		    box-shadow:         0px 3px 0px darken(@font-swatch7-background-color,15%); 
+		    -moz-box-shadow:    0px 3px 0px darken(@font-swatch7-background-color,15%);
+		    box-shadow:         0px 3px 0px darken(@font-swatch7-background-color,15%);
 		    border: none;
 		    margin: 5px 0;
 		    padding: 11px 15px 11px 40px;
@@ -613,8 +613,8 @@ a.btn.ecombasket-summary-link {
         &.btn.facebook {
             background-color: #3b5998;
               	-webkit-box-shadow: 0px 3px 0px darken(#3b5998,15%);
-			    -moz-box-shadow:    0px 3px 0px darken(#3b5998,15%); 
-			    box-shadow:         0px 3px 0px darken(#3b5998,15%); 
+			    -moz-box-shadow:    0px 3px 0px darken(#3b5998,15%);
+			    box-shadow:         0px 3px 0px darken(#3b5998,15%);
             &:hover {
               background-color: lighten(#3b5998,10%);
               color: #ffffff;
@@ -624,8 +624,8 @@ a.btn.ecombasket-summary-link {
         &.btn.twitter {
             background-color: #4099FF;
             -webkit-box-shadow: 0px 3px 0px darken(#4099FF,10%);
-		    -moz-box-shadow:    0px 3px 0px darken(#4099FF,10%); 
-		    box-shadow:         0px 3px 0px darken(#4099FF,10%); 
+		    -moz-box-shadow:    0px 3px 0px darken(#4099FF,10%);
+		    box-shadow:         0px 3px 0px darken(#4099FF,10%);
             &:hover {
               background-color: lighten(#4099FF,10%);
               color: #ffffff;
@@ -635,8 +635,8 @@ a.btn.ecombasket-summary-link {
         &.btn.googleplus {
             background-color: #d34836;
             -webkit-box-shadow: 0px 3px 0px darken(#d34836,10%);
-		    -moz-box-shadow:    0px 3px 0px darken(#d34836,10%); 
-		    box-shadow:         0px 3px 0px darken(#d34836,10%); 
+		    -moz-box-shadow:    0px 3px 0px darken(#d34836,10%);
+		    box-shadow:         0px 3px 0px darken(#d34836,10%);
             &:hover {
               background-color: lighten(#d34836,10%);
               color: #ffffff;
@@ -680,6 +680,9 @@ select {
 	@media @mobile {
 		width: 100%;
 	}
+	@media @tablet {
+		width: 100%;
+	}
 }
 
 textarea {
@@ -700,9 +703,9 @@ input, input[type='text'], input[type=email] {
 	}
 }
 
-.widget.profile form button.btn, 
-.signupform fieldset button, 
-.blogsearch form button.blog-search-submit-button, 
+.widget.profile form button.btn,
+.signupform fieldset button,
+.blogsearch form button.blog-search-submit-button,
 .form-group.productlist-search .btn {
 	position: relative;
 	height: 40px;
@@ -711,8 +714,8 @@ input, input[type='text'], input[type=email] {
 	font-size: 15px;
 }
 
-.widget.profile form button.btn, 
-.signupform fieldset button, 
+.widget.profile form button.btn,
+.signupform fieldset button,
 .blogsearch form button.blog-search-submit-button {
 	@media @tablet {
 		min-width: 19%;
@@ -779,8 +782,8 @@ input, input[type='text'], input[type=email] {
     .message-box {
         background-color: #f9f2c7;
 	    -webkit-box-shadow: 0px 3px 0px darken(#f9f2c7,10%);
-	    -moz-box-shadow:    0px 3px 0px darken(#f9f2c7,10%); 
-	    box-shadow:         0px 3px 0px darken(#f9f2c7,10%); 
+	    -moz-box-shadow:    0px 3px 0px darken(#f9f2c7,10%);
+	    box-shadow:         0px 3px 0px darken(#f9f2c7,10%);
         text-align: center;
         padding: 10px 0;
         margin: 0 auto;
@@ -800,15 +803,15 @@ input, input[type='text'], input[type=email] {
 		    padding-right: 10px;
 	    }
     }
-}  
+}
 
 .widget.contactform .overlay.success {
 	margin-bottom: 20px;
     .message-box {
         background-color: #156150;
 	    -webkit-box-shadow: 0px 3px 0px darken(#156150,20%);
-	    -moz-box-shadow:    0px 3px 0px darken(#156150,20%); 
-	    box-shadow:         0px 3px 0px darken(#156150,20%); 
+	    -moz-box-shadow:    0px 3px 0px darken(#156150,20%);
+	    box-shadow:         0px 3px 0px darken(#156150,20%);
         text-align: center;
         padding: 10px 0;
         margin: 0 auto;
@@ -828,7 +831,7 @@ input, input[type='text'], input[type=email] {
 	      	padding-right: 10px;
 	    }
     }
-}  
+}
 
 /* ===============================
    TWITTER
@@ -1053,7 +1056,7 @@ hr {
         }
         img {
             display: block;
-            max-width: 100%;     
+            max-width: 100%;
             max-height: 500px;
             @media @mobile {
 	            max-height: 300px;
@@ -1160,7 +1163,7 @@ footer.blog-post-metadata time {
                     &.menu-item-promoted { /* menu-item-promoted */
                         display: inline-block;
                         .inner-item {
-                            &:before { 
+                            &:before {
                                 content: "\2605";
                                 font-size: 20px;
                                 position: absolute;
@@ -1173,7 +1176,7 @@ footer.blog-post-metadata time {
                                 padding-left: 25px;
                                 color: @color-swatch3;
                             }
-                        }  
+                        }
                     }/* end menu-item-promoted */
                     .inner-item {
                         .menu-item-image-wrap {
@@ -1212,7 +1215,7 @@ footer.blog-post-metadata time {
                                 margin-bottom: 5px;
                                 padding: 0 3px;
                                 position: relative;
-                                &:before { 
+                                &:before {
                                     content: "\2605";
                                     font-size: 8px;
                                     position: absolute;
@@ -1232,7 +1235,7 @@ footer.blog-post-metadata time {
             .menu-subsection {
                 padding: 0;
                 margin: 0;
-                .menu-subsection-promoted { /* PROMOTED SUB-SECTION */ 
+                .menu-subsection-promoted { /* PROMOTED SUB-SECTION */
                     border: 1px dotted @color-swatch3;
                     padding: 0 2em 2em;
                     margin: 2em 0 1em;
@@ -1577,8 +1580,8 @@ span.ecom-product-category {
                             border: 1px solid darken(@color-swatch1,7%);
                             .border-radius(3px);
                             -webkit-box-shadow: 0px 3px 0px darken(@color-swatch1,15%);
-						    -moz-box-shadow:    0px 3px 0px darken(@color-swatch1,15%); 
-						    box-shadow:         0px 3px 0px darken(@color-swatch1,15%); 
+						    -moz-box-shadow:    0px 3px 0px darken(@color-swatch1,15%);
+						    box-shadow:         0px 3px 0px darken(@color-swatch1,15%);
                             &:hover {
                                 background-color: darken(@color-swatch1,10%);
                             }
