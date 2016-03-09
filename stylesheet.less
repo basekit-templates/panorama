@@ -399,6 +399,14 @@ footer .footer-profile {
 		  		}
 		  	}
 			&.folder {
+                @media @tablet {
+                    ul {
+                        display: none;
+                    }
+                    &.folder-open ul {
+                        display: block;
+                    }
+                }
 				margin-right: 0;
 				&:after {
 					border-top-color: lighten(@font-swatch6-color, 10%);

@@ -38,5 +38,13 @@
 	    if (supportsSVG()) document.documentElement.className += ' svg'
 	}()
 </script>
+
+<script>
+// Toggles class open to display/hide filters
+$(document).on("click", ".folder", function() {
+   $( ".folder" ).toggleClass( "folder-open" );
+});
+</script>
+
 </body>
 </html>
