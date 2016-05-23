@@ -30,24 +30,19 @@
 	{% block content %}
 	{% endblock %}
 	{% include basekit.bodyScript %}
-<script type="text/javascript">
-	! function () {
-	    function supportsSVG() {
-	        return !!document.createElementNS && !! document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect
-	    }
-	    if (supportsSVG()) document.documentElement.className += ' svg'
-	}()
-</script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 <script>
-$(document).ready(function() {
-	$(".js-menu-list").children().click(function() {
-		$(this)
-		.add('.folder-open', this.parentNode)
-		.toggleClass('folder-open');
-	});
+jQuery(function($) {
+    $(document).ready(function() {
+    $(".js-menu-list").children().click(function() {
+    $(this)
+	.add('.folder-open', this.parentNode)
+	toggleClass('folder-open');
+    	
+         });
+    });
 });
 </script>
 
