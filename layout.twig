@@ -31,16 +31,16 @@
 	{% endblock %}
 	{% include basekit.bodyScript %}
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 	<script>
-		$(document).ready(function() {
-		  $(".js-menu-list").children().click(function() {
+	$(document).each(function() {
+		$(".extendednavigation .open").children().click(function() {
 		    $(this)
-		        .add('.folder-open', this.parentNode)
-		        .toggleClass('folder-open');
-		  });
+		    .add('.folder-open', this.parentNode)
+		    .toggleClass('folder-open');
 		});
+	});
 	</script>
 
 </body>
