@@ -42,11 +42,13 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <script>
-	$( ".folder" ).each(function() {
-		$( this ).click(function() {
-			$( this ).parent( ".folder" ).toggleClass( "folder-open" );
-		});
+$(document).ready(function() {
+	$(".js-menu-list").children().click(function() {
+		$(this)
+		.add('.folder-open', this.parentNode)
+		.toggleClass('folder-open');
 	});
+});
 </script>
 
 </body>
