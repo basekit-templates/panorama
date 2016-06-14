@@ -1,7 +1,7 @@
 {
     "name":"Panorama",
     "thumbnail":"panorama.png",
-    "screenshot":"panorama.png",
+    "screenshot":"panorama-screenshot.jpg",
     "templateType":"standard",
     "images":[
         "images/feature-bg.jpg"
