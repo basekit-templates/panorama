@@ -591,6 +591,7 @@ button.btn,
 .widget.profile form button,
 .signupform fieldset button,
 .contactform button.btn,
+.advancedcontactform fieldset button,
 .blogsearch form button,
 .checkout-order-button,
 .checkout-empty-link,
@@ -795,11 +796,12 @@ input, input[type='text'], input[type=email] {
 	margin-left: 4px!important;
 }
 
-/* CONTACT FORM */
+/* CONTACT FORM AND ADVANCED FORM */
 
-.widget.contactform {
+.widget.contactform,
+.advancedcontactform {
     fieldset {
-        input {
+        input[type="email"] {
             text-indent: 40px;
             margin-bottom: 10px;
             background-image: image('/images/envelope.png');
@@ -819,15 +821,18 @@ input, input[type='text'], input[type=email] {
     }
 }
 
-.widget.contactform fieldset textarea {
-	margin-bottom: 10px;
-    background-image: image('/images/pencil.png');
-    background-repeat: no-repeat;
-    background-position: 13px 5px;
-    text-indent: 40px;
-	@media @mobile {
-		background-image: none;
-		text-indent: 10px;
+.widget.contactform,
+.advancedcontactform {
+	fieldset textarea {
+		margin-bottom: 10px;
+	    background-image: image('/images/pencil.png');
+	    background-repeat: no-repeat;
+	    background-position: 13px 5px;
+	    text-indent: 40px;
+		@media @mobile {
+			background-image: none;
+			text-indent: 10px;
+		}
 	}
 }
 
@@ -897,6 +902,14 @@ input, input[type='text'], input[type=email] {
 	      	padding-right: 10px;
 	    }
     }
+}
+
+.advancedcontactform .option-list {
+	padding: 1em 0;
+}
+
+.advancedcontactform fieldset button {
+	margin-top: 20px;
 }
 
 /* ===============================
