@@ -1,5 +1,6 @@
 {
     "name":"Panorama",
+    "versionTenCompatible": 1,
     "thumbnail":"panorama.png",
     "screenshot":"panorama-screenshot.jpg",
     "templateType":"standard",
