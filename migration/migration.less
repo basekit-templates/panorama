@@ -11,7 +11,7 @@
 
     // Main content spacing (replace with corresponding template class)
     .main {
-        float: unset;
+        float: initial;
         display: inline-block;
         padding: 0;
     }
@@ -35,36 +35,16 @@
     @widget-margin--tablet: 30px;
     @widget-margin-bottom: 2px;
 
-    .wrapper {
-        width: 90%;
-        margin: 0 5%;
-
-        @media only screen and (min-width: 940px) {
-            max-width: 1024px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        // overwrite the existing one otherwise it won't work properly in v10s editor
-        @media only screen and (min-width: 1140px) {
-            max-width: 1024px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-
 
     // Applies spacing to widgets to mimic container width
     .empty-zone,
     #page-zones__main:empty,
     #page-zones__main > .widget:not(.row),
     .row:not(.widget):not(.row--width-no-padding) .row__container {
-        margin-left: @widget-margin--desktop;
-        margin-right: @widget-margin--desktop;
-
-        @media @tablet {
-            margin-left: @widget-margin--tablet;
-            margin-right: @widget-margin--tablet;
-        }
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1024px;
+        width: 90%;
     }
 
 
