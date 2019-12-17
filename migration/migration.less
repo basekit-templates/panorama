@@ -6,8 +6,16 @@
 #migrated-site {
 
 
-    // Stylseheet overrides
+    // Stylesheet overrides
     // -----------------------------
+
+
+    .wrapper {
+        @media only screen and (min-width: 1140px) {
+            max-width: 1024px;
+            width: 90%;
+        }
+    }
 
     // Main content spacing (replace with corresponding template class)
     .main {
@@ -88,12 +96,7 @@
 
     // Adds spacing to the section when a widget is before it
     #page-zones__main > .widget:not(.row) + .row {
-        margin-bottom: @spacing--other;
         margin-top: @spacing--other;
-
-        &:not(:last-child) {
-            margin-bottom: 0;
-        }
     }
 
     #page-zones__main:empty {
@@ -121,8 +124,6 @@
     .row-overlay:after {
         background-image: linear-gradient(to left, transparent , #e8e8e8) !important;
     }
-
-
 }
 
 // End of #migrated-site
